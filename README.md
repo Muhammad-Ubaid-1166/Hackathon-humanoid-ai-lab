@@ -38,7 +38,7 @@ This project is a Docusaurus-based book platform integrated with a RAG (Retrieva
 
 ### **5. Text Selection Quick Chat**
 *   **Functionality:** Users can select any text on the book pages.
-*   **Interaction:** A **"Chat About This"** button appears upon selection.
+*   **Interaction:** A **"Ask AI"** button appears upon selection.
 *   **Flow:** Clicking the button automatically copies the selected text into the Chatbot input field.
 *   **Benefit:** Allows users to immediately ask questions or request explanations regarding specific content.
 
