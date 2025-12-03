@@ -60,7 +60,7 @@ function HomepageHeader() {
               </Link>
               <Link
                 className={clsx('button button--secondary button--lg', styles.outlineButton)}
-                to="https://github.com/your-repo">
+                to="https://github.com/Awaisprogram/hackathon-physical-ai-humanoid-textbook">
                 GitHub Repo
               </Link>
             </div>

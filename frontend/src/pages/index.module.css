@@ -313,17 +313,20 @@
 }
 
 /* --- Responsive --- */
+
+/* Tablet & Mobile */
 @media screen and (max-width: 996px) {
   .heroWrapper {
     height: auto;
     min-height: auto;
-    padding: 4rem 0;
+    padding: 3rem 1rem;
   }
   
   .gridSystem {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2.5rem;
     text-align: center;
+    padding: 0 1rem;
   }
 
   .contentCol {
@@ -332,16 +335,190 @@
     align-items: center;
   }
 
+  .heroTitle {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
+
   .techStack {
     justify-content: center;
   }
 
-  .heroSubtitle {
-    margin-left: auto;
-    margin-right: auto;
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .buttons a,
+  .buttons button {
+    width: 100%;
+  }
+
+  .glassCard {
+    max-width: 100%;
   }
   
   .scrollIndicator {
     display: none;
+  }
+
+  .bgGrid {
+    background-size: 40px 40px;
+  }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 768px) {
+  .heroWrapper {
+    padding: 2rem 0.75rem;
+    padding-top: 80px;
+  }
+
+  .gridSystem {
+    gap: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .heroTitle {
+    font-size: clamp(1.75rem, 10vw, 2.5rem);
+    margin-bottom: 1rem;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .techStack {
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .techLabel {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .techChip {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+  }
+
+  .buttons {
+    gap: 0.75rem;
+  }
+
+  .glassCard {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .chatbotWrapper {
+    padding: 15px;
+    min-height: 250px;
+  }
+
+  .bgGrid {
+    background-size: 30px 30px;
+  }
+
+  .bgGlow {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* Small Mobile Phones */
+@media screen and (max-width: 480px) {
+  .heroWrapper {
+    padding: 1.5rem 0.5rem;
+    padding-top: 70px;
+  }
+
+  .gridSystem {
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  .heroTitle {
+    font-size: clamp(1.5rem, 12vw, 2rem);
+    margin-bottom: 0.75rem;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+
+  .techStack {
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .techChip {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+  }
+
+  .buttons {
+    gap: 0.6rem;
+  }
+
+  .buttons a,
+  .buttons button {
+    font-size: 0.9rem;
+    padding: 0.65rem 1rem;
+  }
+
+  .glassCard {
+    border-radius: 6px;
+  }
+
+  .cardHeader {
+    padding: 8px 12px;
+  }
+
+  .dotRed, .dotYellow, .dotGreen {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+  }
+
+  .cardTitle {
+    font-size: 0.7rem;
+  }
+
+  .chatbotWrapper {
+    padding: 12px;
+    min-height: 200px;
+  }
+
+  .bgGrid {
+    background-size: 25px 25px;
+    opacity: 0.2;
+  }
+
+  .bgGlow {
+    width: 400px;
+    height: 400px;
   }
 }
