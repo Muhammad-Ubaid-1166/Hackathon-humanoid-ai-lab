@@ -33,7 +33,6 @@ This project is a Docusaurus-based book platform integrated with a RAG (Retrieva
 *   Added a **'ترجمہ کریں (Urdu)'** toggle button at the start of each chapter.
 *   Developed a reusable `ChapterTranslator` React component.
 *   **functionality:**
-    *   Currently uses a mock API.
     *   Preserves formatting (headings, lists, code blocks).
     *   Toggles between English and Urdu dynamically.
 
