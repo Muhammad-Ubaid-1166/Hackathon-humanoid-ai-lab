@@ -31,7 +31,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/your-org/physical-ai-book/tree/main/',
+            'https://github.com/Awaisprogram/hackathon-physical-ai-humanoid-textbook',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -59,7 +59,7 @@ const config: Config = {
           label: 'Chapters', // Changed from Tutorial to Chapters
         },
         {
-          href: 'https://github.com/your-org/physical-ai-book',
+          href: 'https://github.com/Awaisprogram/hackathon-physical-ai-humanoid-textbook',
           label: 'GitHub',
           position: 'right',
         },
