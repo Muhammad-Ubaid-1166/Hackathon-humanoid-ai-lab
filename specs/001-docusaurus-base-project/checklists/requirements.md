@@ -1,8 +1,8 @@
-# Specification Quality Checklist: Unified Book + RAG Chatbot
+# Specification Quality Checklist: Set up Docusaurus base project for Unified Book
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
-**Created**: 2025-12-02
-**Feature**: [Link to spec.md]
+**Created**: 2025-11-29
+**Feature**: [Link to spec.md](/specs/001-docusaurus-base-project/spec.md)
 
 ## Content Quality
 
