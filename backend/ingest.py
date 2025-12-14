@@ -21,8 +21,8 @@ qdrant_api_key = os.getenv("QDRANT_API_KEY")
 cohere_api_key = os.getenv("COHERE_API_KEY")
 
 # Your Deployment Link:
-SITEMAP_URL = "https://hackathon-physical-ai-humanoid-text-ten.vercel.app/sitemap.xml"
-COLLECTION_NAME = "humanoid_ai_book"
+SITEMAP_URL = "https://humaniod-lab-ai-text-demotest11.vercel.app/sitemap.xml"
+COLLECTION_NAME = "humanoid_ai_book-lab"
 
 cohere_client = cohere.Client(cohere_api_key)
 
